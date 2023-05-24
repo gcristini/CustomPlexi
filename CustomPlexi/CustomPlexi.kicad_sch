@@ -1,0 +1,136 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cb47f45c-6a2b-402e-a3a9-bf4992e06e45)
+
+  (paper "A4")
+
+  (title_block
+    (title "PlexiTone")
+    (date "2023-05-18")
+    (rev "Rev0")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text_box "-- TODO --\n1) Aggiungere stadio TS9 --> con o senza tono?\n2) Clipping asimmetrico\n3) Clipping led/diodo/diodo germanio\n4) Marshall tone stack al posto dello stadio di tono\n\n5) alimentazione doppia"
+    (at 207.01 17.78 0) (size 66.04 27.94)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 02c9deb5-a786-4c57-9e5b-aabfc9ebe478)
+  )
+
+  (sheet (at 135.89 50.8) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 456125fd-895a-4d81-aa0f-bb315183acbb)
+    (property "Sheetname" "Boost" (at 135.89 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Boost.kicad_sch" (at 135.89 55.1946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CustomPlexi"
+        (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 48.26 64.77) (size 30.48 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9b0d4c7f-a409-4743-8b6f-6499ab699d39)
+    (property "Sheetname" "Input Filter + Buffer" (at 48.26 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "InputFIlterPlusBuffer.kicad_sch" (at 48.26 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CustomPlexi"
+        (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 92.71 107.95) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b3a3e8ef-e747-456f-8933-4bcf39be44f4)
+    (property "Sheetname" "Switches" (at 92.71 107.2384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Switches.kicad_sch" (at 92.71 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 92.71 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "CustomPlexi"
+        (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 93.98 77.47) (size 12.7 5.08) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bb03f90a-acf2-4514-8da0-ce840f9be904)
+    (property "Sheetname" "Plexi" (at 93.98 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Plexi.kicad_sch" (at 93.98 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CustomPlexi"
+        (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 88.9 45.72) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c4a7bcdf-70be-4e6d-b7b4-c53de8d52358)
+    (property "Sheetname" "Power" (at 88.9 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 88.9 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CustomPlexi"
+        (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 128.27 81.28) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d67dc5e3-b5e6-4ced-a0aa-c1f6a7e7b9d1)
+    (property "Sheetname" "Tone Stack" (at 128.27 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ToneStack.kicad_sch" (at 128.27 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 128.27 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "CustomPlexi"
+        (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
