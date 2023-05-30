@@ -14,11 +14,11 @@
   )
 
 
-  (text_box "-- TODO --\n1) Aggiungere stadio TS9 --> con o senza tono?\n2) Clipping asimmetrico\n3) Clipping led/diodo/diodo germanio\n4) Marshall tone stack al posto dello stadio di tono\n\n5) alimentazione doppia"
-    (at 207.01 17.78 0) (size 66.04 27.94)
+  (text_box "-- TODO --\n1) Aggiungere stadio TS9 sena tono [OK]\n2) Clipping asimmetrico/simmetrico [OK]\n3) Clipping led/diodo/diodo germanio [OK]\n4) Marshall tone stack al posto dello stadio di tono [OK]\n5) Controllo volume separato\n\n5) alimentazione doppia"
+    (at 185.42 36.83 0) (size 143.51 68.58)
     (stroke (width 0) (type default))
     (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
+    (effects (font (size 3 3)) (justify left top))
     (uuid 02c9deb5-a786-4c57-9e5b-aabfc9ebe478)
   )
 
@@ -35,6 +35,26 @@
     (instances
       (project "CustomPlexi"
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 83.82 144.78) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 46194796-04b4-4b0f-a843-2a3656b84ab8)
+    (property "Sheetname" "Preamp" (at 83.82 144.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "preamp.kicad_sch" (at 83.82 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 83.82 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "CustomPlexi"
+        (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45" (page "3"))
       )
     )
   )
