@@ -351,10 +351,10 @@
     (uuid f4400bc5-8869-43d0-a2ec-dcd89c53b76e)
   )
 
-  (global_label "Buffer_Out" (shape output) (at 143.51 62.23 0) (fields_autoplaced)
+  (global_label "Buffer_Out{slash}Preamp_In" (shape output) (at 143.51 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 46b867e6-1bf2-40b2-898f-3a845ccef268)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 156.3338 62.23 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 167.5218 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
