@@ -469,7 +469,7 @@
     (uuid f27921e9-4e86-419b-bc02-626c5ecfcc8f)
   )
 
-  (wire (pts (xy 57.15 107.95) (xy 57.15 134.62))
+  (wire (pts (xy 63.5 107.95) (xy 63.5 134.62))
     (stroke (width 0) (type default))
     (uuid 01d93aed-da12-4b14-9709-dd0bd05a44cc)
   )
@@ -581,7 +581,7 @@
     (stroke (width 0) (type default))
     (uuid 7f11c031-5a71-43f7-a269-4dba05d6a182)
   )
-  (wire (pts (xy 57.15 102.87) (xy 72.39 102.87))
+  (wire (pts (xy 63.5 102.87) (xy 72.39 102.87))
     (stroke (width 0) (type default))
     (uuid 814be7e1-ec3d-4cb9-a85f-718723c9ea17)
   )
@@ -621,7 +621,7 @@
     (stroke (width 0) (type default))
     (uuid a841b87c-ea2e-49a7-ac4d-216396fa1a7d)
   )
-  (wire (pts (xy 57.15 134.62) (xy 182.88 134.62))
+  (wire (pts (xy 63.5 134.62) (xy 182.88 134.62))
     (stroke (width 0) (type default))
     (uuid b92f4cb2-f7c7-4cd0-b730-7133b747094c)
   )
@@ -689,7 +689,7 @@
     (stroke (width 0) (type default))
     (uuid e9f4383a-c122-45c3-a9a5-9928307e5124)
   )
-  (wire (pts (xy 40.64 105.41) (xy 46.99 105.41))
+  (wire (pts (xy 46.99 105.41) (xy 53.34 105.41))
     (stroke (width 0) (type default))
     (uuid ecc09488-bc32-41f6-b61b-8ec84c0f40c0)
   )
@@ -727,10 +727,10 @@
     (uuid df687948-190d-4e5e-9107-583d07b34136)
   )
 
-  (global_label "Buffer_Out{slash}Preamp_In" (shape input) (at 40.64 105.41 180) (fields_autoplaced)
+  (global_label "Buffer_Out{slash}Preamp_In" (shape input) (at 46.99 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 6778922d-ac37-4a00-ae60-23d70fbe7dd5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 16.6282 105.41 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 22.9782 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -775,7 +775,7 @@
           (reference "R8") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "R23") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -784,7 +784,7 @@
   (symbol (lib_id "Diode:1N4148") (at 113.03 78.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b419bab-7e2a-4db6-a7ba-267438746af3)
-    (property "Reference" "D5" (at 113.03 73.66 0)
+    (property "Reference" "D2" (at 113.03 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 113.03 76.2 0)
@@ -807,7 +807,7 @@
     (instances
       (project "CustomPlexi"
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -839,7 +839,7 @@
           (reference "C5") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "C1") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -870,7 +870,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -903,7 +903,7 @@
           (reference "RV5") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "RV9") (unit 1)
+          (reference "RV3") (unit 1)
         )
       )
     )
@@ -912,7 +912,7 @@
   (symbol (lib_id "Amplifier_Operational:RC4558") (at 114.3 97.79 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 333baf2e-21c9-4af6-aa8d-a17b118bcaff)
-    (property "Reference" "U5" (at 114.3 106.68 0)
+    (property "Reference" "U2" (at 114.3 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RC4558" (at 114.3 104.14 0)
@@ -935,7 +935,7 @@
     (instances
       (project "CustomPlexi"
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "U5") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -944,7 +944,7 @@
   (symbol (lib_id "Amplifier_Operational:RC4558") (at 167.64 95.25 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3428fd7c-f13e-4eb8-87be-b15bdc48e30d)
-    (property "Reference" "U5" (at 167.64 104.14 0)
+    (property "Reference" "U2" (at 167.64 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RC4558" (at 167.64 101.6 0)
@@ -967,7 +967,7 @@
     (instances
       (project "CustomPlexi"
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "U5") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -999,7 +999,7 @@
           (reference "C5") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "C18") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1031,7 +1031,7 @@
           (reference "R8") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "R22") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1040,7 +1040,7 @@
   (symbol (lib_id "Diode:1N4148") (at 113.03 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40f15212-60d8-4514-994b-59ea6c90ca97)
-    (property "Reference" "D6" (at 113.03 64.77 0)
+    (property "Reference" "D1" (at 113.03 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 113.03 67.31 0)
@@ -1063,7 +1063,7 @@
     (instances
       (project "CustomPlexi"
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "D6") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1126,7 +1126,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1166,7 +1166,7 @@
   (symbol (lib_id "CustomLib:SW_SPDT_x3") (at 77.47 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a6e6ce0-b5d9-407f-b7f3-dac4162eefe2)
-    (property "Reference" "SW8" (at 77.47 96.52 0)
+    (property "Reference" "SW2" (at 77.47 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TS_Enable" (at 77.47 99.06 0)
@@ -1190,7 +1190,7 @@
     (instances
       (project "CustomPlexi"
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "SW8") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -1222,7 +1222,7 @@
           (reference "C5") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "C13") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1254,7 +1254,7 @@
           (reference "C5") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "C19") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1319,25 +1319,25 @@
           (reference "R8") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "R21") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "CustomLib:SW_SPDT_x3") (at 52.07 105.41 0) (unit 1)
+  (symbol (lib_id "CustomLib:SW_SPDT_x3") (at 58.42 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98e3750e-b61f-4265-8f82-a6d2375ad60c)
-    (property "Reference" "SW4" (at 52.07 97.79 0)
+    (property "Reference" "SW1" (at 58.42 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Pedal Enable" (at 52.07 100.33 0)
+    (property "Value" "Pedal Enable" (at 58.42 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CustomLib:SW_SPST_x3_PinHeader2.54mm" (at 53.34 100.33 0)
+    (property "Footprint" "CustomLib:SW_SPST_x3_PinHeader2.54mm" (at 59.69 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 53.34 100.33 0)
+    (property "Datasheet" "" (at 59.69 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d252e754-8018-44df-a95a-ba5d012fa1e6))
@@ -1352,7 +1352,7 @@
     (instances
       (project "CustomPlexi"
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "SW4") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -1384,7 +1384,7 @@
           (reference "R8") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1416,7 +1416,7 @@
           (reference "C5") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "C9") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1448,7 +1448,7 @@
           (reference "C5") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1457,7 +1457,7 @@
   (symbol (lib_id "CustomLib:SW_SPDT_x3") (at 241.3 107.95 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3a92007-9233-440a-a7d7-5376a202c74b)
-    (property "Reference" "SW6" (at 241.3 100.33 0)
+    (property "Reference" "SW3" (at 241.3 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Preamp Enable" (at 241.3 102.87 0)
@@ -1481,7 +1481,7 @@
     (instances
       (project "CustomPlexi"
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "SW6") (unit 2)
+          (reference "SW3") (unit 2)
         )
       )
     )
@@ -1514,7 +1514,7 @@
           (reference "RV2") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "RV4") (unit 1)
+          (reference "RV2") (unit 1)
         )
       )
     )
@@ -1545,7 +1545,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1577,7 +1577,7 @@
           (reference "R8") (unit 1)
         )
         (path "/cb47f45c-6a2b-402e-a3a9-bf4992e06e45/46194796-04b4-4b0f-a843-2a3656b84ab8"
-          (reference "R20") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
